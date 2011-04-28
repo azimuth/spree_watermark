@@ -2,14 +2,12 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_watermark'
   s.version     = '0.50.0'
-  s.summary     = 'Add gem summary here'
-  s.description = 'Add (optional) gem description here'
-  s.required_ruby_version = '>= 1.8.7'
+  s.summary     = 'adds watermarking to incoming images'
+  s.description = 'Adds watermarking to incoming images'
+  s.required_ruby_version = '>= 1.9.2'
+  s.author            = 'Christopher Maujean'
+  s.email             = 'christopher@azimuthonline.com'
 
-  # s.author            = 'David Heinemeier Hansson'
-  # s.email             = 'david@loudthinking.com'
-  # s.homepage          = 'http://www.rubyonrails.org'
-  # s.rubyforge_project = 'actionmailer'
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")

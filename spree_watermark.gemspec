@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_watermark'
-  s.version     = '0.50.1'
+  s.version     = '0.50.2'
   s.summary     = 'adds watermarking to incoming product images'
   s.description = 'Adds watermarking to incoming product images'
   s.required_ruby_version = '>= 1.9.2'

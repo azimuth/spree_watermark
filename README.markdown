@@ -12,6 +12,9 @@ Install
 Add `gem 'spree_watermark'` to your gem file and place your watermark images
 in `public/images/watermarks/`
 
+NOTE: BY DEFAULT, THIS WILL FORCE ALL OF YOUR ASSETS INTO PNG. YOU WILL
+NEED TO CUSTOMIZE AS BELOW TO CHANGE THIS BEHAVIOUR.
+
 Customization
 =============
 

@@ -1,7 +1,7 @@
 # Based on
 # https://github.com/ng/paperclip-watermarking-app/blob/master/lib/paperclip_processors/watermark.rb
 # Modified by Laurynas Butkus
-# Copied from https://gist.github.com/708077 into rtw_theme by Christopher Maujean
+# Copied from https://gist.github.com/708077 into spree_watermark by Christopher Maujean
 
 module Paperclip
   class Watermark < Processor

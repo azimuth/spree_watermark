@@ -5,25 +5,25 @@ Image.class_eval do
     :styles => {
       :mini => {
         :geometry => '48x48>',
-        :watermark_path => "#{RAILS_ROOT}/public/images/watermarks/tiny.png",
+        :watermark_path => "#{Rails.root.to_s}/public/images/watermarks/tiny.png",
         :watermark_position => "SouthWest",
         :format => :png,
       },
       :small => {
         :geometry => '100x100>',
-        :watermark_path => "#{RAILS_ROOT}/public/images/watermarks/small.png",
+        :watermark_path => "#{Rails.root.to_s}/public/images/watermarks/small.png",
         :watermark_position => "SouthWest",
         :format => :png,
       },
       :product => {
         :geometry => '240x240>',
-        :watermark_path => "#{RAILS_ROOT}/public/images/watermarks/product.png",
+        :watermark_path => "#{Rails.root.to_s}/public/images/watermarks/product.png",
         :watermark_position => "SouthWest",
         :format => :png,
       },
       :large => {
         :geometry => '600x600>',
-        :watermark_path => "#{RAILS_ROOT}/public/images/watermarks/large.png",
+        :watermark_path => "#{Rails.root.to_s}/public/images/watermarks/large.png",
         :watermark_position => "SouthWest",
         :format => :png,
       },
